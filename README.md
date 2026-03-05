@@ -21,6 +21,11 @@ BDD automation project for https://solutionshub.epam.com/.
 .\gradlew.bat test -Dheadless=true
 ```
 
+### One-command run + artifacts
+```powershell
+.\run_and_capture.ps1
+```
+
 ## Reports and screenshots
 - Cucumber HTML report: `build/reports/cucumber/cucumber.html`
 - Scenario screenshots (PASSED/FAILED): `build/reports/screenshots/`
