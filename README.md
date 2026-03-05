@@ -1,4 +1,4 @@
-﻿# Test-Automation-Gherkin-
+# Test-Automation-Gherkin-
 
 BDD automation project for https://solutionshub.epam.com/.
 
