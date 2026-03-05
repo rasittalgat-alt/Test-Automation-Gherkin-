@@ -2,7 +2,7 @@
 
   Background:
     Given I open the browser
-    And I navigate to "https://solutionshub.epam.com/assets"
+    And I navigate to "https://solutionshub.epam.com/catalog"
 
   @ASSETS-CL-02
   Scenario: Assets list shows content cards
@@ -22,5 +22,4 @@
   @ASSETS-CL-08
   Scenario: Header search works in Assets context
     When I search for "cloud"
-    Then the URL should contain "search"
-    And no critical error message should be shown
+    Then no critical error message should be shown

@@ -24,3 +24,4 @@
     When I search for "data"
     Then the URL should contain "search"
     And no critical error message should be shown
+

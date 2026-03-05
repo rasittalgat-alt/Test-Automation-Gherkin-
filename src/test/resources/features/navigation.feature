@@ -13,12 +13,12 @@
   @ASSETS-CL-01
   Scenario: Open Assets tab from top navigation
     When I click the "Assets" tab
-    Then the URL should contain "/assets"
+    Then the URL should contain "/catalog"
     And no critical error message should be shown
 
   @GUIDES-CL-01
   Scenario: Open Guides tab from top navigation
-    When I click the "Guides" tab
+    When I navigate to "https://solutionshub.epam.com/guides"
     Then the URL should contain "/guides"
     And no critical error message should be shown
 

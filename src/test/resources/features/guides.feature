@@ -24,3 +24,4 @@
     When I search for "testing"
     Then the URL should contain "search"
     And no critical error message should be shown
+

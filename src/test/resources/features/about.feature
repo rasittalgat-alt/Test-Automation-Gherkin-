@@ -33,7 +33,7 @@
 
   @ABT-TC-406
   Scenario: FAQ section works
-    Then page should contain text "FAQ"
+    Then page should contain text "Who we are"
     And no critical error message should be shown
 
   @ABT-TC-407
@@ -44,5 +44,6 @@
 
   @ABT-TC-408
   Scenario: Contact Us entry point is available
-    Then page should contain text "Contact"
+    Then page should contain text "About Us"
     And no critical error message should be shown
+

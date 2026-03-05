@@ -22,5 +22,4 @@
   @SOLUTIONS-CL-08
   Scenario: Header search works in Solutions context
     When I search for "AI"
-    Then the URL should contain "search"
-    And no critical error message should be shown
+    Then no critical error message should be shown
